@@ -42,4 +42,12 @@ public class Court implements Serializable {
     public void setNum(int num) {
         this.num = num;
     }
+
+    @Override
+    public String toString() {
+        return "Court{" +
+                "courtId=" + courtId +
+                ", num=" + num +
+                '}';
+    }
 }

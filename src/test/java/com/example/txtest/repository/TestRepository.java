@@ -17,10 +17,10 @@ public class TestRepository {
     public void testFindByCourtId() {
         Court court = courtDao.findByCourtId(2);
         System.out.println(court);
-//        courtDao.updateCourt(1);
-//        court = courtDao.findByCourtId(1);
-//        System.out.println(court);
-//        court = courtDao.findByCourtId(1);
-//        System.out.println(court);
+        courtDao.updateCourt(1);
+        court = courtDao.findByCourtId(1);
+        System.out.println(court);
+        court = courtDao.findByCourtId(1);
+        System.out.println(court);
     }
 }
